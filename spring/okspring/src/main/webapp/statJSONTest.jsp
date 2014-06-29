@@ -12,7 +12,7 @@ var jqxhr = $.getJSON('./stat.do', function(j){alert("success"+JSON.stringify(j)
 </script>
 </head>
 <body>
-안녕하세요2.
+안녕하세요23.
 <div id="result"></div>
 </body>
 </html>
