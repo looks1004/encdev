@@ -25,9 +25,6 @@ public class User {
 		return confirmPassword;
 	}
 
-	public void setConfirmPassword(String confirmPassword) {
-		this.confirmPassword = confirmPassword;
-	}
 
 	public boolean isOk() {
 		boolean isOk = (id != null) && id.equals("admin") && (password != null)
