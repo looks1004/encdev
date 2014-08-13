@@ -40,4 +40,5 @@ public class GameDaoImpl implements GameDao {
 		return 0;
 	}
 
+	
 }

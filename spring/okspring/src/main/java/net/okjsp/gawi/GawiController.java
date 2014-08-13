@@ -39,7 +39,7 @@ public class GawiController {
 	public String queryJSON(Model model) {
 		return "queryJSON";
 	}
-	
+
 	@RequestMapping(value = "/stat.do", method = RequestMethod.GET)
 	public String statJSON(Model model) {
 		return "statJSON";
